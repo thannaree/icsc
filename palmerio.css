@@ -1,0 +1,226 @@
+
+* {
+    font-family: "Aldrich", sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper, .head-banner, .footer, .top-section, .container {
+    width: 100%;
+    padding: 10px 12px;
+}
+
+.nav-bar {
+    display: none;
+}
+
+.menu-icon {
+
+}
+
+.head-banner {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #424242;
+    /*box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);*/
+}
+
+.head-banner div, .head-banner a {
+    color: white;
+    margin: 5px 10px;
+    font-size: large;
+}
+
+a {
+    text-decoration: none;
+}
+
+.banner {
+    margin-top: 13%;
+    position: relative;
+}
+
+.img-banner {
+    width: 100%;
+    height: 30%;
+    opacity: 0.6;
+}
+
+.aside-text {
+    width: 90%;
+    height: 85%;
+    position: absolute;
+    top: 48%;
+    left: 52%;
+    transform: translate(-50%, -50%);
+    /*border: 5px solid red;*/
+}
+
+.aside-text h2 {
+    width: 70%;
+    position: absolute;
+    top: 4%;
+    right: 0;
+}
+
+aside h4{
+    width: 70%;
+    position: absolute;
+    padding-left: 5px;
+    top: 20%;
+    right: 0;
+    /*padding: 6px 8px;*/
+    line-height: 20px; /* for desktop -- 30px */
+    /*font-style: italic;*/
+    /*font-size: medium; !* for desktop -- larger and add font-weight: bold; *!*/
+    color: #424242;
+    /*box-shadow: inset 5px 0 5px -5px #424242;*/
+    /*box-shadow: inset 0 0 15px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.10);*/
+}
+
+.logo {
+    width: 25%;
+    position: absolute;
+    top: 6%;
+    left: 6%;
+    /*margin: 6px 8px;*/
+    /*align-content: flex-start;*/
+    /*border: 3px solid white;*/
+    /*border-radius: 70%;*/
+    /*box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);*/
+}
+
+#call2action {
+    width: 50%;
+    position: absolute;
+    padding: 6px;
+    left: 37%;
+    right: 13%;
+    top: 35%;
+    font-size: large;
+    color: white;
+    background-color: #4CAF50;
+    border-radius: 8%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.footer p {
+    padding: 10px;
+}
+
+.footer-icon i {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.footer {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: #424242;
+    color: white;
+    font-size: 14px;
+}
+
+
+/*@media (min-width: 320px) and (max-width: 480px) {*/
+/*.img-banner {*/
+/*display: none;*/
+/*}*/
+/*.section {*/
+/*margin-top: 12%;*/
+/*}*/
+
+
+/*}*/
+/*
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+@media (min-width: 481px) and (max-width: 767px) {
+
+
+
+}
+
+/*
+  ##Device = Most of the Smart phones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+@media (min-width: 320px) and (max-width: 480px) {
+
+}
+
+@media (min-width: 1281px) {
+    .menu-icon {
+        display: none;
+    }
+    .banner {
+        margin-top: 3.7%;
+    }
+    aside {
+        font-size: xx-large;
+        top: 25%;
+        line-height: 48px;
+    }
+    .img-profile {
+        top: 25%;
+        width: 16%;
+    }
+    .head-text {
+        display: none;
+    }
+    .nav-bar {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    /*.nav-bar a:hover {*/
+    /*color: #673ab7;*/
+    /*background-color: white;*/
+    /*}*/
+    .icon::before, .icon::after {
+        content: "";
+        padding: 0 5px;
+    }
+    .column {
+        width: 25%;
+    }
+    /*.button {*/
+    /*border: none;*/
+    /*display: block;*/
+    /*padding: 8px 16px;*/
+    /*width: 25%;*/
+    /*height: 28px;*/
+    /*vertical-align: middle;*/
+    /*overflow: hidden;*/
+    /*text-decoration: none;*/
+    /*color: inherit;*/
+    /*background-color: inherit;*/
+    /*text-align: center;*/
+    /*cursor: pointer;*/
+    /*white-space: nowrap;*/
+    /*}*/
+    .column {
+        border: none;
+        /*padding: 0;*/
+        /*display: block;*/
+        /*text-decoration: none;*/
+        text-align: center;
+        /*width: 100%;*/
+        vertical-align: middle;
+        font-size: large;
+        /*margin: 0;*/
+    }
+    a:hover {
+        color: darkgrey;
+    }
+}
