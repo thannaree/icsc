@@ -30,7 +30,7 @@
 .head-banner {
     position: fixed;
     top: 0;
-    width: 100%;
+    /*width: 100%;*/
     z-index: 1;
     display: flex;
     flex-direction: row;
@@ -39,7 +39,7 @@
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-.head-banner div, .head-banner a {
+.head-banner .menu-icon, .head-banner a, .head-banner .head-text {
     color: white;
     margin: 2px;
     font-size: medium;
@@ -66,21 +66,21 @@ a {
 }
 
 .img-banner {
-    width: 100%;
+    /*width: 100%;*/
     height: 30%;
     opacity: 0.6;
 }
 
 .aside-text {
-    width: 100%;
+    /*width: 100%;*/
     height: 85%;
     position: absolute;
     color: coral;
     font-size: x-large;
-    /*bottom: 5%;*/
-    /*left: 10%;*/
+    top: 82%;
+    left: 20%;
     /*right: 10%;*/
-    transform: translate(21%, -6%);
+    /*transform: translate(21%, -6%);*/
     /*border: 5px solid red;*/
 }
 
@@ -128,11 +128,11 @@ aside h2 {
     color: royalblue;
     position: absolute;
     padding: 0 .145em;
-    top: -8px;
+    top: -5px;
     line-height: 14px;
     left:35%;
     background-color: black;
-    transform: translateX(-25%);
+    transform: translateX(-24%);
 }
 
 aside p {
